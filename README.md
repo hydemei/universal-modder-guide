@@ -91,6 +91,15 @@ What engine is my copy of Terraria, has anyone modded it before, and what route 
 ```text
 Add one boomerang that bounces between enemies four times before returning. Placeholder sprite first, then a fal sprite once it works in game.
 ```
+**Free practice case: Mindustry 160.7.** The [accepted upstream field note](https://github.com/rehan-remade/universal-modder/blob/main/knowledge/games/mindustry/mindustry-160-7-a-reproducible-json-and-javascript-homing-la.md)
+records a small homing lab using Mindustry's built-in JSON/JavaScript mod API;
+no Minecraft loader is needed. Use the [author's free desktop download](https://anuke.itch.io/mindustry),
+and match the recorded version before following the [installation, comparison and recovery workshop](https://modlabguides.online/workshop/mindustry-homing).
+The workshop includes the original MIT source and mod ZIP. Recorded tests cover
+mod 0.1.0 on macOS 15.7 in single-player; other systems and multiplayer remain untested.
+Playing the supplied ZIP needs no coding agent or fal API key. Agent usage charges
+may apply when editing it.
+
 Good first games: Terraria (tModLoader), Stardew Valley (SMAPI), Minecraft (Fabric), Unity games with BepInEx. [Game library](https://universal-modder.dev/games/).
 
 ## Common errors
